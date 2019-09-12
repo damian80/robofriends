@@ -1,6 +1,6 @@
 export const robots = [{
         id: 1,
-        name: 'Frank',
+        name: 'Sam',
         username: 'Bret',
         // email: 'Sincere@april.biz'
     },
@@ -12,50 +12,62 @@ export const robots = [{
     },
     {
         id: 3,
-        name: 'Sam',
+        name: 'Frank',
         username: 'Samantha',
         // email: 'Nathan@yesenia.net'
     },
     {
         id: 4,
-        name: 'Patricia Lebsack',
+        name: 'Sebastian',
         username: 'Karianne',
-        email: 'Julianne.OConner@kory.org'
+        // email: 'Julianne.OConner@kory.org'
     },
     {
         id: 5,
-        name: 'Chelsey Dietrich',
+        name: 'Josh',
         username: 'Kamren',
-        email: 'Lucio_Hettinger@annie.ca'
+        // email: 'Lucio_Hettinger@annie.ca'
     },
     {
         id: 6,
-        name: 'Mrs. Dennis Schulist',
+        name: 'Alex',
         username: 'Leopoldo_Corkery',
-        email: 'Karley_Dach@jasper.info'
+        // email: 'Karley_Dach@jasper.info'
     },
     {
         id: 7,
-        name: 'Kurtis Weissnat',
+        name: 'Mateo',
         username: 'Elwyn.Skiles',
-        email: 'Telly.Hoeger@billy.biz'
+        // email: 'Telly.Hoeger@billy.biz'
     },
     {
         id: 8,
-        name: 'Nicholas Runolfsdottir V',
+        name: 'Mark',
         username: 'Maxime_Nienow',
-        email: 'Sherwood@rosamond.me'
+        // email: 'Sherwood@rosamond.me'
     },
     {
         id: 9,
-        name: 'Glenna Reichert',
+        name: 'Adam',
         username: 'Delphine',
-        email: 'Chaim_McDermott@dana.io'
+        // email: 'Chaim_McDermott@dana.io'
     },
     {
         id: 10,
-        name: 'Clementina DuBuque',
+        name: 'Sub',
         username: 'Moriah.Stanton',
-        email: 'Rey.Padberg@karina.biz'
+        // email: 'Rey.Padberg@karina.biz'
+    },
+    {
+        id: 11,
+        name: 'Theo',
+        username: 'Delphine',
+        // email: 'Chaim_McDermott@dana.io'
+    }, 
+    {
+        id: 12,
+        name: 'Josh',
+        username: 'Moriah.Stanton',
+        // email: 'Rey.Padberg@karina.biz'
     }
 ];
