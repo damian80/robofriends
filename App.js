@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import './App.css';
+
+import { setSearchField } from '../actions'
 
 class App extends Component {
   constructor() {
@@ -33,7 +36,7 @@ class App extends Component {
       <h1>Loading</h1> :
       (
         <div className='tc'>
-          <h1 className='f1'>RoboFriends</h1>
+          <h1 className='f1'>Kew Leopards</h1>
           <SearchBox searchChange={this.onSearchChange}/>
           <Scroll>
             <CardList robots={filteredRobots} />
@@ -43,4 +46,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default connect()(App);
